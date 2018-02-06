@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>José Lucena Morente</title>
+	<link rel="stylesheet" type="text/css" href="jquery/jquery-ui-1.12.1.custom/jquery-ui.css">
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<script type="text/javascript" src="jquery/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	<script type="text/javascript" src="query.js"></script>
+</head>
+<style type="text/css">
+	#enlaces {
+		width: 400px;
+		margin: 25px auto;
+	}
+	ul {
+		list-style: none;
+	}
+	li {
+		border-radius: 5px;
+		background-color: black;
+		padding: 10px;
+		text-align: center;
+		margin: 5px;
+	}
+	ul > li> a{
+		color: white;
+		text-decoration: none;
+	}
+	h1,h3 {
+		text-align: center;
+	}
+
+	p {
+		text-align: center;
+	}
+	div {
+		margin: 0 auto;
+	}
+</style>
+<body>
+	<h1>Efectos JQuery-UI (José Lucena Morente)</h1>
+	<div id="enlaces">
+		<ul id="menu">
+				<li><a href="#widget" >Widgets</a></li>
+				<li><a href="#interaccion">Interactions</a></li>
+				<li><a href="#effect">Effects</a></li>
+			</ul>
+		<div id="widget">
+			<h3><a href="http://api.jqueryui.com/dialog/">Widgets</a></h3>
+			<button id="open">Abrir dialogo</button>
+			<div id="dialogo" title="Titulo Dialogo">
+			<p>Este widget te muestra un dialogo, además he añadido varios 2 widgets dentro del menu, el propio menu() y un widget de tabs() que permite alternar contenido como si fueran pestañas</p></div>
+
+		</div>
+		<div id="interaccion">
+			<h3><a href="http://api.jqueryui.com/draggable/">Interactions</a>(Draggable)</h3>
+			<div id="inter">
+				<h2>Interactions</h2>
+				<h3>Draggable</h3>
+				<p>Mueveme con el ratón</p>
+				<p>Este es una interaccion con la que puedes mover la caja</p>
+			</div>
+			<h3><a href="http://api.jqueryui.com/droppable/">Interactions</a>(Droppable)</h3>
+			<div id="drop">
+				<h2>Interactions</h2>
+				<h3>Dropp</h3>
+				<p>Suelta aqui la caja draggable</p>
+				<p>Esta interaccion te permite hacer una acción cuando sueltas un elemento draggable sobre este elemento droppable</p>
+			</div>	
+		</div>
+		<div id="effect">
+			<h3><a href="http://api.jqueryui.com/bounce-effect/">Effects</a></h3>
+			<div id="tog">
+				<h3>Haz click dentro de la caja</h3>
+				<p>Este es un efecto bounce o rebote</p>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
